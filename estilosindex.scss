@@ -440,11 +440,13 @@ ul, img, li {
 
 /*Sección 5: contacto*/
 
-#contacto {
+#contacto .row {
   background-color: rgb(247, 247, 247);
   width: 100%;
-  text-align: left;
+  display: flex;
   flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 #contacto label {
@@ -487,7 +489,7 @@ iframe {
   vertical-align: middle;
   border-style: none;
   height: auto;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 

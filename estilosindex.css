@@ -493,12 +493,16 @@ html {
             transform: scale(1.2);
   }
   /*Sección 5: contacto*/
-  #contacto {
+  #contacto .row {
     background-color: #f7f7f7;
     width: 100%;
-    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
   }
   #contacto label {
     font-family: 'letters_for_learnersregular';
@@ -536,7 +540,7 @@ html {
     vertical-align: middle;
     border-style: none;
     height: auto;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   /* FOOTER */
   .footer_distrib {
