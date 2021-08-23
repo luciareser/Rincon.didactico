@@ -28,8 +28,9 @@ html {
 
 @font-face {
   .nav-link {
-    font-family: mifuente;
+    font-family: LettersforLearners;
     src: url(Fuente/LettersforLearners.ttf);
+    font-size: 2.5rem;
   }
 }
 
