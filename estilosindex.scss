@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+    width: 100%;
+  }
+  /* Menú*/
+  .header {
+    background: url(img/arcoirisinicio.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .header .navbar {
+    background-color: transparent !important;
+    width: 100%;
+    display: flex;
+  }
+  
+  .nav-link {
+    font-family: 'letters_for_learnersregular';
+    font-size: 2.5rem;
+    margin-right: 80px;
+  }
+  
+  .collapse {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .dropdown-item {
+    font-size: 1.9rem;
+    font-family: 'letters_for_learnersregular';
+  }
+
+  /*Sección 1: Bienvenido y descripción*/
+.bienvenido {
+  height: 559px;
+  text-align: center;
+  background-image: url(img/arcoirisinicio.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  width: 100%;
+}
+
+@media (min-width: 300px) {
+ .título {
+  font-size: 6rem;
+  font-family: 'letters_for_learnersregular';
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -3px 3px 5px #252424;
+  margin-top: 50px;
+  animation-duration: 3s;
+  animation-name: backInRight;
+}
+}
+
+@media (min-width: 600px) {
+  .título {
+   font-size: 7rem;
+ }
+ }
+
+ @media (min-width: 900px) {
+  .título {
+   font-size: 9rem;
+ }
+ }
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 300px) {
+  .descripciónInicio {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.3rem;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 1px 8px #252424;
+ }
+ }
+
+ @media (min-width: 600px) {
+  .descripciónInicio {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.7rem;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 1px 8px #252424;
+ }
+ }
+
+@media (min-width: 900px) {
+  .descripciónInicio {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.0rem;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 1px 8px #252424;
+ }
+ }
+
+.button #facebook {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  left: 1200px;
+  background: transparent;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.button #instagram {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  left: 1200px;
+  background: transparent;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+
+/*Sección 2: historia (en "seguir leyendo" voy a la sección Rincón) y propósitos*/
+
+.historia {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.d-flex {
+  display: flex !important;
+  max-width: 100%;
+  
+}
+.row {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.historia_txt h2 {
+  font-family: 'letters_for_learnersregular';  
+  color: #fdc02c;  
+  text-align: left;
+  font-size: 4.8rem;
+  text-align: center;
+  text-shadow: -1px 2.5px 5px #d8d4d4;
+
+}
+
+.historia_txt p {
+  font-size: 1.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.historia_txt a {
+  font-size: 1.9rem;
+}
+
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.col-md-5 {
+  flex: 0 0 auto;
+  width: 41.6666666667%;
+}
+.col-sm-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.img-hist {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.img-hist:hover {
+  transform: scale(1.04);
+  transition: 0.7s;
+  box-shadow: 4px 4px 8px 1px #252525;
+}
+
+/*Sección 3: productos (categorías generales)*/
+.seccion3 {
+  background: #3d9262;
+  margin-top: 85px;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: -1px 2.5px 5px #575656;
+
+}
+
+.productosTitulo {
+  width: 100%;
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  background-position: center;
+  font-weight: lighter;
+  font-family: 'letters_for_learnersregular';
+  margin-top: 80px;
+}
+
+.descProductos {
+  text-align-last: center;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.container3 {
+  flex-flow: row wrap;
+  display: grid;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 300px) {
+  .container3 {
+  grid-template-columns: repeat(1,1fr);
+}
+
+@media (min-width: 600px) {
+  .container3 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+@media (min-width: 900px) {
+  .container3 {
+  grid-template-columns: repeat(4,1fr);
+}}}
+
+.productos_art {
+  margin: 5px;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+
+.productos_art img {
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.productos_art img:hover {
+  transform: scale(1.04);
+  transition: 0.7s;
+  box-shadow: 4px 4px 8px 1px #252525;
+}
+
+.productos_art--txt h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: 'letters_for_learnersregular';
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.productos_art--txt p {
+  margin-bottom: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+/*Sección 4*/
+#seccion4 .content {
+  animation-name: slideInRight;
+  animation-duration: 2s;
+  animation-delay: 8seg;
+}
+
+#block-block-10 {
+  margin: -120px 0 30px;
+}
+
+#block-block-10 .content {
+  text-align: center;
+  position: relative;
+}
+
+#block-block-10 .content img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+
+.catalogo {
+  overflow: auto;
+  width: calc(95%);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo_catalogo {
+  color: #3d9262;
+  font-weight: 500;
+  margin: 0 0 30px;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  line-height: 30px;
+  font-family: 'letters_for_learnersregular';
+}
+.gal-cat {
+  display: grid;
+}
+
+.galeria ul .item h3 {
+  font-family: 'letters_for_learnersregular';
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 2.5px 5px #161616;
+  margin: 33px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.galeria {
+  margin: 60px 0 60px;
+  padding: 0;
+  overflow: auto;
+}
+
+.galeria ul {
+  max-width: 100%;    
+  display: grid;
+}
+
+.galeria ul .item {
+  text-align: center;
+  position: relative;
+  margin: 5px 5px 5px 5px;
+  overflow: hidden;
+}
+
+.galeria .item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  transition: .4s;
+}
+
+
+@media (min-width: 300px) {
+  .grid-4 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+@media (min-width: 600px) {
+  .grid-4 {
+  grid-template-columns: repeat(3,1fr);
+}
+
+@media (min-width: 900px) {
+  .grid-4 {
+  grid-template-columns: repeat(4,1fr);
+}}}
+
+
+.grid51 {
+  width: 100%;
+  display: grid;
+  align-items: start;
+  max-width: 100%
+}
+
+
+ul, img, li {
+  list-style: none;
+}
+
+.galleria ul .item {
+  text-align: center;
+}
+
+/*animación imagenes png*/
+.galeria.gal-cat ul .item a:hover img {
+  transform: scale(1.2);
+}
+
+/*Sección 5: contacto*/
+
+#contacto {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+}
+
+#contacto label {
+  font-family: 'letters_for_learnersregular';
+  font-size: 2.4rem;
+}
+
+#contacto .form-control {
+  font-size: 1.5rem;
+}
+
+#contacto .row {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.encabezado-contacto {
+  margin-bottom: 8vh;
+  margin-top: 8vh;
+}
+ .encabezado-contacto h1 {
+  margin-bottom: 4vh;
+  margin-top: 5vh;
+  color: #fdc02c;
+  font-size: 5.2rem;
+  font-weight: lighter;
+  font-family: 'letters_for_learnersregular';
+  text-align: center;
+}
+
+.encabezado-contacto p{
+  font-size: 1.8rem;
+}
+
+iframe {
+  min-height: 100%;
+  box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
+  max-width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  border-style: none;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+/* FOOTER */
+.footer_distrib {
+  bottom: 0;
+  background-color: #292c2f;
+  width: 100%;
+  text-align: left;
+  font-family: 'letters_for_learnersregular';
+  font-size: 2.5rem;
+  padding: 55px 50px;
+}
+
+.footer_distrib .footer-left,
+.footer_distrib .footer-center,
+.footer_distrib .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+.footer_distrib .footer-left {
+  width: 40%;
+}
+
+/* Logo */
+.footer_distrib h3 {
+  color: #ffffff;
+  margin: 0;
+}
+
+/* links */
+.footer_distrib .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer_distrib .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_distrib .footer-company-name {
+  color: #8f9296;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+.footer_distrib .footer-center {
+  width: 35%;
+}
+
+.footer_distrib .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 2.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer_distrib .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer_distrib .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.footer_distrib .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+/* Footer Right */
+.footer_distrib .footer-right {
+  width: 20%;
+}
+
+.footer_distrib .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.footer_distrib .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer_distrib .footer-icons {
+  margin-top: 25px;
+}
+
+.footer_distrib .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Media queries footer*/
+@media (max-width: 880px) {
+  .footer_distrib {
+    font: bold 14px sans-serif;
+  }
+  .footer_distrib .footer-left,
+  .footer_distrib .footer-center,
+  .footer_distrib .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Letters for Learners;
+    font-size: 1.9rem;
+  }
+  .footer_distrib .footer-center i {
+    margin-left: 0;
+  }
+}}
+}

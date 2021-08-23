@@ -1,0 +1,20 @@
+{
+  "name": "Rincón didáctico",
+  "version": "1.0.0",
+  "description": "Rincón didáctico es una tienda de juegos didácticos educativos y regalería. Mi emprendimiento se ubica en el rubro de Tienda de juguetes exclusivamente didácticos. Ofrece recursos lúdicos para instituciones de estimulación y rehabilitación.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciareser/Rincon-didactico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciareser/Rincon-didactico/issues"
+  },
+  "homepage": "https://github.com/luciareser/Rincon-didactico#readme"
+}
