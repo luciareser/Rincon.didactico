@@ -443,15 +443,28 @@ ul, img, li {
 #contacto {
   background-color: rgb(247, 247, 247);
   width: 100%;
-  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 #contacto .row {
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
 #contacto label {

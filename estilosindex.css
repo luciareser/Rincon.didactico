@@ -496,7 +496,15 @@ html {
   #contacto {
     background-color: #f7f7f7;
     width: 100%;
-    height: auto;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   #contacto .row {
     min-width: 100%;
@@ -505,8 +513,16 @@ html {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #f7f7f7;
+    width: 100%;
+  }
+  .col-md-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
   }
   #contacto label {
     font-family: 'letters_for_learnersregular';
