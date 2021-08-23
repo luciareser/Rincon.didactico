@@ -442,10 +442,12 @@ ul, img, li {
 
 #contacto {
   background-color: rgb(247, 247, 247);
-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 #contacto .row {
+  background-color: rgb(247, 247, 247);
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
