@@ -22,12 +22,8 @@
   }
   
   .nav-link {
-    @font-face {
-      font-family: 'letters_for_learnersregular';
-      font-size: 2.5rem;
-      margin-right: 80px;
-      src: url(Fuente/Letters\ for\ Learners.ttf);
-      }
+    font-size: 2.5rem;
+ 
 }
   
   .collapse {
@@ -36,11 +32,7 @@
   }
 
   .dropdown-item {
-    @font-face {
-      font-family: 'letters_for_learnersregular';
-      font-size: 1.9rem;
-      src: url(Fuente/Letters\ for\ Learners.ttf);
-      }
+    font-size: 1.9rem;
   }
 
   /*Sección 1: Bienvenido y descripción*/
@@ -57,11 +49,9 @@
 
 @media (min-width: 300px) {
  .título {
-  @font-face {
-    font-family: 'letters_for_learnersregular';
-    font-size: 6rem;
-    src: url(Fuente/Letters\ for\ Learners.ttf);
-    }  color: white;
+  font-size: 6rem;
+  font-family: 'letters_for_learnersregular';
+  color: white;
   font-style: normal;
   font-weight: bold;
   text-align: center;
