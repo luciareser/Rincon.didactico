@@ -499,6 +499,8 @@ html {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #contacto label {
     font-family: 'letters_for_learnersregular';
@@ -507,15 +509,6 @@ html {
   }
   #contacto .form-control {
     font-size: 1.5rem;
-  }
-  #contacto .row {
-    background-color: #f7f7f7;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .encabezado-contacto {
     margin-bottom: 8vh;
