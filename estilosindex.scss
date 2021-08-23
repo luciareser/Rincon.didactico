@@ -440,9 +440,13 @@ ul, img, li {
 
 /*Sección 5: contacto*/
 
-#contacto .row {
+#contacto {
   background-color: rgb(247, 247, 247);
-  width: 100%;
+width: 100%;
+}
+
+#contacto .row {
+  min-width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-left: -10px;

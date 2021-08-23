@@ -493,9 +493,12 @@ html {
             transform: scale(1.2);
   }
   /*Sección 5: contacto*/
-  #contacto .row {
+  #contacto {
     background-color: #f7f7f7;
     width: 100%;
+  }
+  #contacto .row {
+    min-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
