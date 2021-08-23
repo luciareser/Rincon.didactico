@@ -22,10 +22,13 @@
   }
   
   .nav-link {
-    font-family: 'letters_for_learnersregular';
-    font-size: 2.5rem;
-    margin-right: 80px;
-  }
+    @font-face {
+      font-family: 'letters_for_learnersregular';
+      font-size: 2.5rem;
+      margin-right: 80px;
+      src: url(Fuente/Letters\ for\ Learners.ttf);
+      }
+}
   
   .collapse {
     justify-content: center;
@@ -33,8 +36,11 @@
   }
 
   .dropdown-item {
-    font-size: 1.9rem;
-    font-family: 'letters_for_learnersregular';
+    @font-face {
+      font-family: 'letters_for_learnersregular';
+      font-size: 1.9rem;
+      src: url(Fuente/Letters\ for\ Learners.ttf);
+      }
   }
 
   /*Sección 1: Bienvenido y descripción*/
@@ -51,9 +57,11 @@
 
 @media (min-width: 300px) {
  .título {
-  font-size: 6rem;
-  font-family: 'letters_for_learnersregular';
-  color: white;
+  @font-face {
+    font-family: 'letters_for_learnersregular';
+    font-size: 6rem;
+    src: url(Fuente/Letters\ for\ Learners.ttf);
+    }  color: white;
   font-style: normal;
   font-weight: bold;
   text-align: center;
