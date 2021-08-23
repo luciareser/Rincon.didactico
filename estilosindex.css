@@ -496,7 +496,8 @@ html {
   #contacto {
     background-color: #f7f7f7;
     width: 100%;
-    margin: 10px, 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
   }
   #contacto label {
