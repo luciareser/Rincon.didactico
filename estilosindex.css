@@ -11,6 +11,11 @@ html {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'Letters for Learners';
+  src: url(Fuente/LettersforLearners.ttf);
+}
+
 /* Menú*/
 .header {
   background: url(img/arcoirisinicio.jpg) no-repeat center;
@@ -26,11 +31,9 @@ html {
   display: flex;
 }
 
-@font-face {
-  .nav-link {
-    font-family: "LettersforLearners";
-    src: url("/Fuente/letters_for_learners.woff2") format("woff2"), url("/Fuente/letters_for_learners.woff") format("woff");
-  }
+.nav-link {
+  font-family: "Letters for Learners";
+  font-size: 5.5rem;
 }
 
 .collapse {
