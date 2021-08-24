@@ -519,6 +519,9 @@ html {
             transform: scale(1.2);
   }
   /*Sección 5: contacto*/
+  .seccionContacto {
+    width: 100%;
+  }
 }
 
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
