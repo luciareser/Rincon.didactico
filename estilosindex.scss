@@ -23,11 +23,11 @@
   
   .nav-link {
     @font-face {
-      font-family: LettersforLearners;
-      src: url(Fuente/LettersforLearners.ttf);    
-      font-size: 2.5rem;
-     }
-  
+      font-family: "Open Sans";
+      src: url("/Fuente/letters_for_learners.woff2") format("woff2"),
+           url("/Fuente/letters_for_learners.woff") format("woff");
+    }
+    
 }
   
   .collapse {
