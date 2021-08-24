@@ -30,7 +30,7 @@
   
   .nav-link {
     font-family: "Letters for Learners";
-    font-size: 25px;
+    font-size: 2.5rem;
     }
   
   .collapse {
@@ -56,8 +56,8 @@
 
 @media (min-width: 300px) {
  .título {
-  font-size: 60px;
-  font-family: 'Letters for Learners';
+  font-size: 6rem;
+  font-family: "Letters for Learners";
   color: white;
   font-style: normal;
   font-weight: bold;
@@ -187,7 +187,7 @@
 }
 
 .historia_txt h2 {
-  font-family: 'letters_for_learnersregular';  
+  font-family: "Letters for Learners";
   color: #fdc02c;  
   text-align: left;
   font-size: 4.8rem;
@@ -252,7 +252,7 @@
   text-align: center;
   background-position: center;
   font-weight: lighter;
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   margin-top: 80px;
 }
 
@@ -310,7 +310,7 @@
 .productos_art--txt h1 {
   margin-bottom: 10px;
   font-size: 35px;
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   font-weight: lighter;
   color: #ffffff;
 }
@@ -354,6 +354,7 @@
 }
 
 .titulo_catalogo {
+  font-family: "Letters for Learners";
   color: #3d9262;
   font-weight: 500;
   margin: 0 0 30px;
@@ -362,14 +363,13 @@
   position: relative;
   padding: 0;
   line-height: 30px;
-  font-family: 'letters_for_learnersregular';
 }
 .gal-cat {
   display: grid;
 }
 
 .galeria ul .item h3 {
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   font-size: 3rem;
   color: rgb(255, 255, 255);
   text-shadow: -1px 2.5px 5px #161616;
@@ -474,7 +474,7 @@ ul, img, li {
 }
 
 #contacto label {
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   font-size: 2.4rem;
 }
 
@@ -492,7 +492,7 @@ ul, img, li {
   color: #fdc02c;
   font-size: 5.2rem;
   font-weight: lighter;
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   text-align: center;
 }
 
@@ -524,7 +524,7 @@ iframe {
   background-color: #292c2f;
   width: 100%;
   text-align: left;
-  font-family: 'letters_for_learnersregular';
+  font-family: "Letters for Learners";
   font-size: 2.5rem;
   padding: 55px 50px;
 }
