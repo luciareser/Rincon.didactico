@@ -463,9 +463,18 @@ ul, img, li {
 
 /*Sección 5: contacto*/
 
+@media (min-width: 300px) {
+  #contacto {
+    background-color: rgb(247, 247, 247);
+    margin-left: 15px;
+  }
+  }
+
+@media (min-width: 900px) {
 #contacto {
   background-color: rgb(247, 247, 247);
   width: 100%;
+}
 }
 
 .row {
@@ -546,6 +555,7 @@ iframe {
   text-align: left;
   font-family: 'Letters for Learners';
   font-size: 2.5rem;
+  font-weight: normal;
   padding: 55px 50px;
 }
 
