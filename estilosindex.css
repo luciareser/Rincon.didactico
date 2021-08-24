@@ -525,7 +525,8 @@ html {
   #contacto {
     background-color: #f7f7f7;
     margin-left: 15px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -533,14 +534,16 @@ html {
   #contacto {
     background-color: #f7f7f7;
     margin-left: 20px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 900px) {
   #contacto {
     background-color: #f7f7f7;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 

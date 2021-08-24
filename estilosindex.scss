@@ -468,7 +468,8 @@ ul, img, li {
   #contacto {
     background-color: rgb(247, 247, 247);
     margin-left: 15px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
   }
 
@@ -476,14 +477,16 @@ ul, img, li {
     #contacto {
       background-color: rgb(247, 247, 247);
       margin-left: 20px;
-      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
     }
     }
 
 @media (min-width: 900px) {
 #contacto {
   background-color: rgb(247, 247, 247);
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
 }
 }
 
