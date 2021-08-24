@@ -14,7 +14,6 @@ html {
 @font-face {
   font-family: 'Letters for Learners';
   src: url(Fuente/LettersforLearners.ttf);
-  font-size: 3.5rem;
   font-weight: lighter;
 }
 
@@ -35,7 +34,7 @@ html {
 
 .nav-link {
   font-family: "Letters for Learners";
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .collapse {
