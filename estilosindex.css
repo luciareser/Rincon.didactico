@@ -402,17 +402,35 @@ html {
     max-width: 1200px;
     margin: 0 auto;
   }
+}
+
+@media (min-width: 300px) and (min-width: 300px) {
+  .titulo_catalogo {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 600px) {
+  .titulo_catalogo {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 900px) {
   .titulo_catalogo {
     font-family: 'Letters for Learners';
+    font-size: 4rem;
     color: #3d9262;
     font-weight: 500;
     margin: 0 0 30px;
-    font-size: 4rem;
     text-align: center;
     position: relative;
     padding: 0;
     line-height: 30px;
   }
+}
+
+@media (min-width: 300px) {
   .gal-cat {
     display: -ms-grid;
     display: grid;
@@ -551,6 +569,7 @@ html {
   }
   .encabezado-contacto p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
     font-size: 1.8rem;
     text-align: center;
   }
