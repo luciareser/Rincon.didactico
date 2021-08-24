@@ -356,7 +356,10 @@
 
 @media (min-width: 300px) {
   .titulo_catalogo {
-  font-size: 3rem;
+    font-family: 'Letters for Learners';
+    font-size: 3rem;
+    text-align: center;
+    color: #3d9262;
   }
 }
 
@@ -379,8 +382,6 @@
   line-height: 30px;
 }
 }
-
-
 
 .gal-cat {
   display: grid;
