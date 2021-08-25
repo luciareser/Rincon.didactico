@@ -575,6 +575,9 @@ html {
     background-color: #f7f7f7;
     width: 100%;
   }
+  .mb-5 {
+    width: 100%;
+  }
   .row {
     display: -webkit-box;
     display: -ms-flexbox;
