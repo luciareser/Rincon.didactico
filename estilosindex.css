@@ -528,35 +528,36 @@ html {
   /*Sección 5: contacto*/
   .seccionContacto {
     width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
   }
-}
-
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
+  /*@media (min-width: 300px) {
   #contacto {
-    background-color: #f7f7f7;
+    background-color: rgb(247, 247, 247);
     min-width: 100%;
     max-width: 100%;
   }
-}
-
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
-  #contacto {
-    background-color: #f7f7f7;
-    margin-left: 20px;
-    min-width: 100%;
-    max-width: 100%;
   }
-}
 
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 900px) {
-  #contacto {
-    background-color: #f7f7f7;
-    min-width: 100%;
-    max-width: 100%;
-  }
-}
+  @media (min-width: 600px) {
+    #contacto {
+      background-color: rgb(247, 247, 247);
+      margin-left: 20px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    }
 
-@media (min-width: 300px) and (min-width: 300px) {
+@media (min-width: 900px) {
+#contacto {
+  background-color: rgb(247, 247, 247);
+  min-width: 100%;
+  max-width: 100%;
+}
+}*/
   .row {
     display: -webkit-box;
     display: -ms-flexbox;

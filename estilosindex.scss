@@ -473,9 +473,14 @@ ul, img, li {
 
 .seccionContacto {
   width: 100%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
 }
 
-@media (min-width: 300px) {
+/*@media (min-width: 300px) {
   #contacto {
     background-color: rgb(247, 247, 247);
     min-width: 100%;
@@ -498,7 +503,7 @@ ul, img, li {
   min-width: 100%;
   max-width: 100%;
 }
-}
+}*/
 
 .row {
   display: flex;
