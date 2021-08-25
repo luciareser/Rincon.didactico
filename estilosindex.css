@@ -570,6 +570,8 @@ html {
   }
   /*Sección 5: contacto*/
   #contacto {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-color: #f7f7f7;
     width: 100%;
   }
