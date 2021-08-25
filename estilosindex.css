@@ -528,44 +528,44 @@ html {
   /*Sección 5: contacto*/
   .seccionContacto {
     width: 100%;
-    top: 0;
     left: 0;
-    bottom: 0;
     right: 0;
     height: 100%;
+    background-color: #f7f7f7;
   }
-  /*@media (min-width: 300px) {
-  #contacto {
-    background-color: rgb(247, 247, 247);
-    min-width: 100%;
-    max-width: 100%;
-  }
-  }
-
-  @media (min-width: 600px) {
-    #contacto {
-      background-color: rgb(247, 247, 247);
-      margin-left: 20px;
-      min-width: 100%;
-      max-width: 100%;
-    }
-    }
-
-@media (min-width: 900px) {
-#contacto {
-  background-color: rgb(247, 247, 247);
-  min-width: 100%;
-  max-width: 100%;
 }
-}*/
+
+@media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
+  #contacto {
+    background-color: #f7f7f7;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
+  #contacto {
+    background-color: #f7f7f7;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 300px) and (min-width: 900px) {
+  #contacto {
+    background-color: #f7f7f7;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 300px) {
   .row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
     width: 100%;
   }
   #contacto .row {
@@ -575,12 +575,10 @@ html {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
     background-color: #f7f7f7;
     width: 100%;
   }
-  .col-md-6 {
+  .encabezado-contacto .col-md-6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
@@ -602,7 +600,7 @@ html {
     margin-bottom: 4vh;
     margin-top: 5vh;
     color: #fdc02c;
-    text-shadow: -1px 2.5px 5px #161616;
+    text-shadow: -1px 2.5px 5px #a7a7a7;
     font-size: 5.2rem;
     font-weight: lighter;
     font-family: 'Letters for Learners';
