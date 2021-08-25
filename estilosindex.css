@@ -561,14 +561,6 @@ html {
 }
 
 @media (min-width: 300px) and (min-width: 300px) {
-  .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    min-width: 100%;
-  }
   #contacto .row {
     min-width: 100%;
     display: -webkit-box;
@@ -619,47 +611,23 @@ html {
 }
 
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
-  iframe {
-    min-height: 100%;
-    -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-            box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: middle;
-    border-style: none;
-    height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+  #googlemap {
+    width: 250px;
+    text-align: center;
   }
 }
 
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
-  iframe {
-    min-height: 100%;
-    -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-            box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: middle;
-    border-style: none;
-    height: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+  #googlemap {
+    width: 500px;
+    text-align: center;
   }
 }
 
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 900px) {
-  iframe {
-    min-height: 100%;
-    -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-            box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: middle;
-    border-style: none;
-    height: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+  #googlemap {
+    width: 800px;
+    text-align: center;
   }
 }
 
