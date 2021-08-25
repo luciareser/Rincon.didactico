@@ -528,6 +528,7 @@ html {
   /*Sección 5: contacto*/
   .seccionContacto {
     width: 100%;
+    position: absolute;
     left: 0;
     right: 0;
     height: 100%;
@@ -575,7 +576,6 @@ html {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    background-color: #f7f7f7;
   }
   .encabezado-contacto .col-md-6 {
     -webkit-box-flex: 0;

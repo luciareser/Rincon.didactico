@@ -473,6 +473,7 @@ ul, img, li {
 
 .seccionContacto {
   width: 100%;
+  position: absolute;
   left:0;
   right:0;
   height:100%;
@@ -513,7 +514,6 @@ ul, img, li {
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(247, 247, 247);
 }
 
 .encabezado-contacto .col-md-6 {
