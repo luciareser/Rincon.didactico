@@ -135,6 +135,30 @@
  }
  }
 
+ @media (min-width: 300px) {
+
+  .button #facebook {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    left: 380px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+  
+  .button #instagram {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    left: 380px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 900px) {
 .button #facebook {
   position: fixed;
   bottom: 30px;
@@ -153,6 +177,7 @@
   background: transparent;
   border-radius: 100px;
   z-index: 1;
+}
 }
 
 
