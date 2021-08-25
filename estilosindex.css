@@ -147,18 +147,18 @@ html {
 @media (min-width: 300px) {
   .button #facebook {
     position: fixed;
-    bottom: 80px;
-    right: 20px;
-    left: 350px;
+    bottom: 100px;
+    right: 10px;
+    left: 380px;
     background: transparent;
     border-radius: 100px;
     z-index: 1;
   }
   .button #instagram {
     position: fixed;
-    bottom: 150px;
-    right: 20px;
-    left: 350px;
+    bottom: 160px;
+    right: 10px;
+    left: 380px;
     background: transparent;
     border-radius: 100px;
     z-index: 1;
