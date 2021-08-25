@@ -518,11 +518,26 @@ ul, img, li {
 }
 
 /*Sección contacto*/
-
 #flexContacto{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+@media (max-width: 700px) {
+  #flexContacto {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+}
+
+
+@media (max-width:700px){
+#flexContacto div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 }
 .contacto{
   flex-basis: 50%;
