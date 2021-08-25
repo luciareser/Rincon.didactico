@@ -44,10 +44,12 @@ html {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  font-family: 'Letters for Learners';
 }
 
 .dropdown-item {
-  font-size: 1.9rem;
+  font-family: 'Letters for Learners';
+  font-size: 1.8rem;
 }
 
 /*Sección 1: Bienvenido y descripción*/
@@ -411,12 +413,16 @@ html {
     font-size: 3rem;
     text-align: center;
     color: #3d9262;
+    text-shadow: -1px 2.5px 5px #161616;
   }
 }
 
 @media (min-width: 300px) and (min-width: 600px) {
   .titulo_catalogo {
     font-size: 3.5rem;
+    text-align: center;
+    color: #3d9262;
+    text-shadow: -1px 2.5px 5px #161616;
   }
 }
 
@@ -425,6 +431,7 @@ html {
     font-family: 'Letters for Learners';
     font-size: 4rem;
     color: #3d9262;
+    text-shadow: -1px 2.5px 5px #161616;
     font-weight: 500;
     margin: 0 0 30px;
     text-align: center;
@@ -527,7 +534,6 @@ html {
 @media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
   #contacto {
     background-color: #f7f7f7;
-    margin-left: 15px;
     min-width: 100%;
     max-width: 100%;
   }
@@ -589,11 +595,13 @@ html {
   .encabezado-contacto {
     margin-bottom: 8vh;
     margin-top: 8vh;
+    text-align: center;
   }
   .encabezado-contacto h1 {
     margin-bottom: 4vh;
     margin-top: 5vh;
     color: #fdc02c;
+    text-shadow: -1px 2.5px 5px #161616;
     font-size: 5.2rem;
     font-weight: lighter;
     font-family: 'Letters for Learners';

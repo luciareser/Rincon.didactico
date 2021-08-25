@@ -362,12 +362,16 @@
     font-size: 3rem;
     text-align: center;
     color: #3d9262;
+    text-shadow: -1px 2.5px 5px #161616;
   }
 }
 
 @media (min-width: 600px) {
   .titulo_catalogo {
   font-size: 3.5rem;
+  text-align: center;
+  color: #3d9262;
+  text-shadow: -1px 2.5px 5px #161616;
   }
 }
 
@@ -376,6 +380,7 @@
   font-family: 'Letters for Learners';
   font-size: 4rem;
   color: #3d9262;
+  text-shadow: -1px 2.5px 5px #161616;
   font-weight: 500;
   margin: 0 0 30px;
   text-align: center;
@@ -530,11 +535,13 @@ ul, img, li {
 .encabezado-contacto {
   margin-bottom: 8vh;
   margin-top: 8vh;
+  text-align: center;
 }
  .encabezado-contacto h1 {
   margin-bottom: 4vh;
   margin-top: 5vh;
   color: #fdc02c;
+  text-shadow: -1px 2.5px 5px #161616;
   font-size: 5.2rem;
   font-weight: lighter;
   font-family: 'Letters for Learners';
