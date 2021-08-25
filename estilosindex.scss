@@ -578,17 +578,16 @@ ul, img, li {
 }
 #contacto.col-md-5 {
   width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
 }
 iframe {
   min-height: 100%;
   box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
-  max-width: 100%;
   min-width: 100%;
   vertical-align: middle;
   border-style: none;
   height: auto;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 /* FOOTER */
