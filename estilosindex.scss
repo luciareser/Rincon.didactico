@@ -158,6 +158,29 @@
   }
 }
 
+@media (min-width: 600px) {
+
+  .button #facebook {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    left: 680px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+  
+  .button #instagram {
+    position: fixed;
+    bottom: 160px;
+    right: 10px;
+    left: 680px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+}
+
 @media (min-width: 900px) {
 .button #facebook {
   position: fixed;
