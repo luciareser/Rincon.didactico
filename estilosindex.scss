@@ -481,31 +481,13 @@ ul, img, li {
   background-color: rgb(247, 247, 247);
 }
 
-@media (min-width: 300px) {
   #contacto {
     background-color: rgb(247, 247, 247);
     min-width: 100%;
-    text-align: center;
+    justify-content: center;
   }
-  }
-
-  @media (min-width: 600px) {
-    #contacto {
-      background-color: rgb(247, 247, 247);
-      min-width: 100%;
-      text-align: center;
-    }
-    }
-
-@media (min-width: 900px) {
-  #contacto {
-    background-color: rgb(247, 247, 247);
-    min-width: 100%;
-    text-align: center;
-}
-}
-
-.row {
+  
+  .row {
   display: flex;
   flex-wrap: wrap;
   min-width: 100%;
@@ -555,9 +537,8 @@ ul, img, li {
 }
 
 #contacto .col-md-5 {
-  width: 100%;
+  width: 50%;
   margin-left: 10px;
-  margin-bottom: 1.5rem !important;
 }
 
 @media (min-width: 300px) {

@@ -536,33 +536,13 @@ html {
     height: 100%;
     background-color: #f7f7f7;
   }
-}
-
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 300px) {
   #contacto {
     background-color: #f7f7f7;
     min-width: 100%;
-    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-}
-
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
-  #contacto {
-    background-color: #f7f7f7;
-    min-width: 100%;
-    text-align: center;
-  }
-}
-
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 900px) {
-  #contacto {
-    background-color: #f7f7f7;
-    min-width: 100%;
-    text-align: center;
-  }
-}
-
-@media (min-width: 300px) and (min-width: 300px) {
   .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -614,9 +594,8 @@ html {
     text-align: center;
   }
   #contacto .col-md-5 {
-    width: 100%;
+    width: 50%;
     margin-left: 10px;
-    margin-bottom: 1.5rem !important;
   }
 }
 
