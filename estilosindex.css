@@ -624,11 +624,12 @@ html {
     font-size: 2rem;
     color: black;
   }
-  .ubicacion {
+  .cont-mapa {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+    margin-bottom: 30px;
   }
-  .ubicacion__mapa {
+  .ubicacionMapa {
     width: 100%;
   }
   /*Sección 5: contacto
