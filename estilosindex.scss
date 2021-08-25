@@ -506,7 +506,7 @@ ul, img, li {
 .row {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  min-width: 100%;
 }
 
 #contacto .row {
@@ -514,7 +514,6 @@ ul, img, li {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(247, 247, 247);
-  width: 100%;
 }
 
 .encabezado-contacto .col-md-6 {
@@ -540,7 +539,7 @@ ul, img, li {
   margin-bottom: 4vh;
   margin-top: 5vh;
   color: #fdc02c;
-  text-shadow: -1px 2.5px 5px #a7a7a7;
+  text-shadow: -1px 2.5px 5px #b6b3b3;
   font-size: 5.2rem;
   font-weight: lighter;
   font-family: 'Letters for Learners';
@@ -556,6 +555,7 @@ ul, img, li {
 
 .col-md-5 {
   width: 100%;
+  margin-left: 10px;
 }
 
 @media (min-width: 300px) {
