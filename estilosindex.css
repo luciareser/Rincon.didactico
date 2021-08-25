@@ -568,6 +568,37 @@ html {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
+  #local {
+    background-color: #f7f7f7;
+    padding-bottom: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ajuste {
+    padding-top: 130px !important;
+  }
+  .my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .border-5 {
+    border-width: 5px !important;
+  }
+  .border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+  .border-top {
+    border-top: 1px solid #dee2e6 !important;
+  }
+  .wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+  }
   /*Sección 5: contacto
 
 #contacto {
