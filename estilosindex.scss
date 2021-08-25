@@ -40,6 +40,7 @@
   }
 
   .dropdown-item {
+    font-family: 'Letters for Learners';
     font-size: 1.9rem;
   }
 
@@ -471,7 +472,6 @@ ul, img, li {
 @media (min-width: 300px) {
   #contacto {
     background-color: rgb(247, 247, 247);
-    margin-left: 15px;
     min-width: 100%;
     max-width: 100%;
   }
