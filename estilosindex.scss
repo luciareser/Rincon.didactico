@@ -517,8 +517,24 @@ ul, img, li {
   transform: scale(1.2);
 }
 
+#flexContacto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contacto{
+  flex-basis: 50%;
+  padding-bottom: 20px;
 
-/*Sección 5: contacto*/
+}
+.ubicacion{
+  flex-basis: 50%;
+}
+.ubicacion__mapa{
+  width: 100%;
+}
+
+/*Sección 5: contacto
 
 #contacto {
   box-sizing: border-box;
@@ -582,7 +598,7 @@ iframe {
   vertical-align: middle;
   border-style: none;
   height: auto;
-}
+}*/
 
 /* FOOTER */
 .footer_distrib {
