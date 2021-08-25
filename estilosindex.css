@@ -629,7 +629,7 @@ html {
     text-align: center;
   }
   #contacto.col-md-5 {
-    width: 100%;
+    width: 50%;
   }
   iframe {
     min-height: 100%;
