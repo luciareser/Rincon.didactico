@@ -504,6 +504,12 @@ ul, img, li {
 }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+
 #contacto .row {
   min-width: 100%;
   display: flex;

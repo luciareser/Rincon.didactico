@@ -561,6 +561,14 @@ html {
 }
 
 @media (min-width: 300px) and (min-width: 300px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-width: 100%;
+  }
   #contacto .row {
     min-width: 100%;
     display: -webkit-box;
