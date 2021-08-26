@@ -262,13 +262,32 @@ html {
   display: flex;
 }
 
-.historia_txt h2 {
-  font-family: 'Letters for Learners';
-  color: #fdc02c;
-  text-align: left;
-  font-size: 4.8rem;
-  text-align: center;
-  text-shadow: -1px 2.5px 5px #d8d4d4;
+@media (min-width: 300px) {
+  .historia_txt h2 {
+    font-family: 'Letters for Learners';
+    color: #fdc02c;
+    text-align: left;
+    font-size: 3.8rem;
+    text-align: center;
+    text-shadow: -1px 2.5px 5px #d8d4d4;
+  }
+  .historia_txt p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .historia_txt h2 {
+    font-family: 'Letters for Learners';
+    color: #fdc02c;
+    text-align: left;
+    font-size: 4.8rem;
+    text-align: center;
+    text-shadow: -1px 2.5px 5px #d8d4d4;
+  }
 }
 
 .historia_txt p {
