@@ -623,6 +623,7 @@ html {
   .encabezado-contacto .p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 3rem;
   }
   .títuloForm {
     font-family: 'Letters for Learners';
