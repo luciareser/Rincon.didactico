@@ -569,6 +569,33 @@ html {
             transform: scale(1.2);
   }
   /*Sección contacto*/
+  #contacto {
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  .contacto {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-bottom: 20px;
+  }
+  .encabezado-contacto {
+    text-align: center;
+  }
+  .encabezado-h1 {
+    margin-bottom: 4vh;
+    margin-top: 5vh;
+    color: #fdc02c;
+    text-shadow: -1px 2.5px 5px #b6b3b3;
+    font-size: 5.2rem;
+    font-weight: lighter;
+    font-family: 'Letters for Learners';
+    text-align: center;
+  }
+  .encabezado-contacto .p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 4rem;
+  }
   #flexContacto {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -602,39 +629,6 @@ html {
 }
 
 @media (min-width: 300px) and (min-width: 300px) {
-  #contacto {
-    background-color: #f0f0f0;
-    width: 100%;
-  }
-  .contacto {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    padding-bottom: 20px;
-  }
-  .encabezado-contacto {
-    text-align: center;
-  }
-  .encabezado-h1 {
-    margin-bottom: 4vh;
-    margin-top: 5vh;
-    color: #fdc02c;
-    text-shadow: -1px 2.5px 5px #b6b3b3;
-    font-size: 5.2rem;
-    font-weight: lighter;
-    font-family: 'Letters for Learners';
-    text-align: center;
-  }
-  .encabezado-contacto .p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .encabezado-contacto .p.p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2.9rem;
-    color: white;
-  }
   .títuloForm {
     font-family: 'Letters for Learners';
     font-size: 2rem;
