@@ -2,10 +2,19 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Letters for Learners';
+  src: url(Fuente/LettersforLearners.ttf);
+  font-weight: lighter;
 }
 
 video {
@@ -24,7 +33,7 @@ video {
 }
 
 .nav-link {
-  font-family: Letters for Learners;
+  font-family: 'Letters for Learners';
   font-size: 2.5rem;
   margin-right: 80px;
 }
@@ -39,7 +48,7 @@ video {
 
 .dropdown-item {
   font-size: 1.9rem;
-  font-family: Letters for Learners;
+  font-family: 'Letters for Learners';
 }
 
 /* Menú*/
@@ -54,7 +63,7 @@ video {
 }
 
 .nav-link {
-  font-family: Letters for Learners;
+  font-family: 'Letters for Learners';
   font-size: 2.5rem;
   margin-right: 80px;
 }
@@ -89,7 +98,7 @@ video {
 @media (min-width: 300px) {
   .historia_art--txtR h2 {
     font-size: 4 rem;
-    font-family: Letters for Learners;
+    font-family: 'Letters for Learners';
     color: white;
     text-shadow: -1px 1px 5px #313131;
     font-weight: lighter;
@@ -101,7 +110,7 @@ video {
 @media (min-width: 900px) {
   .historia_art--txtR h2 {
     font-size: 5.5rem;
-    font-family: Letters for Learners;
+    font-family: 'Letters for Learners';
     color: white;
     text-shadow: -1px 1px 5px #313131;
     font-weight: lighter;
