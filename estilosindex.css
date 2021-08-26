@@ -610,10 +610,10 @@ html {
     font-family: 'Letters for Learners';
     text-align: center;
   }
-  .encabezado-contacto h1 p {
+  .encabezado-contacto .p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   #flexContacto {
     display: -webkit-box;
