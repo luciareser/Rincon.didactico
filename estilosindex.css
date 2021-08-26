@@ -581,7 +581,7 @@ html {
   .encabezado-contacto {
     text-align: center;
   }
-  .encabezado-h1 {
+  .encabezado-contacto h1 {
     margin-bottom: 4vh;
     margin-top: 5vh;
     color: #fdc02c;
