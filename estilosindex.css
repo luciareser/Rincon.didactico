@@ -606,6 +606,7 @@ html {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     padding-bottom: 20px;
+    background-color: #f0f0f0;
   }
   .encabezado-contacto {
     text-align: center;
