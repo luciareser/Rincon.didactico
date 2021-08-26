@@ -610,7 +610,7 @@ html {
   .encabezado-contacto {
     text-align: center;
   }
-  .encabezado-contacto .h1 {
+  .encabezado-h1 {
     margin-bottom: 4vh;
     margin-top: 5vh;
     color: #fdc02c;
@@ -624,6 +624,12 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 3rem;
+  }
+  .encabezado-contacto .p .p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.9rem;
+    color: white;
   }
   .títuloForm {
     font-family: 'Letters for Learners';
