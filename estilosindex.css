@@ -624,9 +624,9 @@ html {
   .encabezado-contacto .p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
   }
-  .encabezado-contacto .p .p {
+  .encabezado-contacto .p.p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 2.9rem;
