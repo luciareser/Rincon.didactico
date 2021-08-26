@@ -73,6 +73,22 @@
     margin-top: 30px;
   }
   
+  @media (min-width: 300px) {
+
+    .historia_art--txtR h2 {
+      font-size: 4 rem;
+      font-family: Letters for Learners;
+      color: white;
+      text-shadow: -1px 1px 5px #313131;
+      font-weight: lighter;
+      text-align: center;
+      margin-top: 27px;
+    }
+    }
+
+
+@media (min-width: 900px) {
+
   .historia_art--txtR h2 {
     font-size: 5.5rem;
     font-family: Letters for Learners;
@@ -82,7 +98,7 @@
     text-align: center;
     margin-top: 27px;
   }
-  
+  }
   p {
     margin-top: 10px;
     font-size: 2rem;
